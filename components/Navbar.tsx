@@ -6,7 +6,7 @@ import Button from "./Button";
 
 function Navbar() {
   return (
-    <nav className="border-2 border-red-500 flexBetween padding-container max-container relative z-30 py-5">
+    <nav className=" flexBetween padding-container max-container relative z-30 py-5">
       <Link href="/">
         <Image src="/hilink-logo.svg" width={79} height={29} alt="Logo" />
       </Link>
