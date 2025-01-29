@@ -66,8 +66,7 @@ function Camp() {
           peopleJoined="50+ Joined"
         />
       </div>
-      <div className="flexEnd mt-10 px-6  lg:-mt-60 lg:mr-6">
-        <div className="flex-1 h-full w-full">jai shree ram</div>
+      <div className="flexEnd mt-10 px-6  lg:-mt-60 lg:mr-6 overflow-x-auto">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full rounded-3xl overflow-hidden">
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
             <strong>Feeling Lost</strong> And Not Knowing the way?
