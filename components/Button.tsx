@@ -5,16 +5,19 @@ type buttonProps = {
   title: string;
   icon?: string;
   variant: string;
+  full?: boolean;
 };
 
-function Button({ type, title, icon, variant }: buttonProps) {
+function Button({ type, title, icon, variant, full }: buttonProps) {
   return (
     <button
       type={type}
       className={`${variant} flexCenter gap-3 rounded-full border`}
     >
       {icon && <Image src={icon} width={24} height={24} alt={title} />}
-      <label htmlFor="">{title}</label>
+      <label htmlFor="" className="cursor-pointer">
+        {title}
+      </label>
     </button>
   );
 }
